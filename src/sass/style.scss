@@ -15,12 +15,16 @@ body{
         input{
             margin-bottom: 5px;
             display: flex;
+
             align-items: center;
             flex-direction: column;
             width: 180px;
             height: 60px;
             background-color: tomato;
             font-size: 20px;
+        }
+        p{
+            font-size: 30px;
         }
     }
 }

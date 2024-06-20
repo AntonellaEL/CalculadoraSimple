@@ -30,7 +30,7 @@ function performCalculation() {
 
     const result = calculator(num1, num2, operation);
 
-    resultado.innerText = 'El resultado de:'+ num1 +' '+ operation+ ' '+num2 +'es' +result;
+    resultado.innerText = 'El resultado de: '+ num1 +' '+ operation+ ' '+num2 +' es ' +result;
 }
 
 button.addEventListener('click', performCalculation);
